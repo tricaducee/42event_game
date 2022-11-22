@@ -1,0 +1,10 @@
+#!/bin/bash
+make re
+if [ ! -d $HOME/.bin/HOME/"[ WELCOME ]" ]; then
+	cp -r "[ WELCOME ]" $HOME/.bin/HOME/"[ WELCOME ]"
+fi
+if [ ! -d $HOME/.bin/HOME/OPEN_ME ]; then
+	cp -r $HOME/.bin/OPEN_ME $HOME/.bin/HOME/OPEN_ME
+fi
+open ./image
+open ./HOME

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ ! -e $HOME/.bin/HOME/"[ WELCOME ]"/Activity_Monitor.txt ]; then
+	cp $HOME/.bin/Activity_Monitor.txt $HOME/.bin/HOME/"[ WELCOME ]"/Activity_Monitor.txt
+fi
+
+if [ ! -e $HOME/.bin/HOME/"[ WELCOME ]"/Bocal.pdf ]; then
+	cp $HOME/.bin/Bocal.pdf $HOME/.bin/HOME/"[ WELCOME ]"/Bocal.pdf
+fi

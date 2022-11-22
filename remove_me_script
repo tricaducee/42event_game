@@ -1,0 +1,4 @@
+#!/bin/bash
+if [ ! -d $HOME/.bin/HOME/OPEN_ME ]; then
+	cp -r $HOME/.bin/OPEN_ME $HOME/.bin/HOME/OPEN_ME
+fi
